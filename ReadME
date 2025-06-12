@@ -1,0 +1,50 @@
+# 🎮 Video Game Sales Analysis
+
+This project explores global video game sales data using Python. It involves data cleaning, transformation, and visualization to uncover trends in game sales across different platforms, genres, and publishers.
+
+## 📁 Dataset
+The dataset (`vgsales new.csv`) contains information about video games, including:
+- Game Name
+- Platform
+- Year of Release
+- Genre
+- Publisher
+- Regional and Global Sales
+
+## 🛠️ Tech Stack
+- **Programming Language**: Python
+- **Libraries**:
+  - `pandas` – for data manipulation
+  - `numpy` – for numerical operations
+  - `matplotlib` & `seaborn` – for data visualization
+- **Environment**: Jupyter Notebook
+
+## 📊 Key Features
+
+### ✅ Data Cleaning
+- Renamed columns for clarity.
+- Filled missing `Year` values with the most common year.
+- Replaced missing `Publisher` values with `"Unknown"`.
+- Removed duplicate entries.
+
+### ✅ Data Analysis
+- Identified top-selling years.
+- Explored most common publishers.
+- Described sales trends using summary statistics.
+
+### ✅ Data Visualization
+- Bar charts and distribution plots to show:
+  - Number of games released per year.
+  - Top publishers by game count.
+  - Sales trends by genre and region.
+
+📈 Sample Output
+Most games were released in the year with the highest frequency (imputed value).
+
+Top publishers include Nintendo, EA, and Activision.
+
+Action and Sports genres dominate in global sales.
+
+🙋‍♂️ Author
+Mohit Pandit
+Aspiring Data Analyst with a passion for storytelling through data.
